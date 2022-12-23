@@ -1,0 +1,79 @@
+.codingList_container {
+  display: flex;
+}
+
+.pc_leftbar {
+  background-color: #010028;
+}
+.pc_navbar {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.questionContainer {
+  /* border: 1px solid red; */
+  width: fit-content;
+}
+
+.topicTab {
+  /* border: 1px solid #01014a; */
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7px;
+  width: 79rem;
+  color: #01014a;
+}
+.topicTab p {
+  cursor: pointer;
+}
+
+.qnList {
+  margin-top: 15px;
+  background-color: #f3f4ef;
+  color: #01014a;
+}
+
+.dd_bar {
+  margin-left: 1rem;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.dd_bar select {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.qn_data {
+  /* border: 2px solid green; */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.pd-10 {
+  padding: 10px;
+  padding-right: 7rem;
+}
+.bd-2 {
+  border: 2px solid #62eec7;
+  cursor: pointer;
+}
+.qn_navLink {
+  text-decoration: none;
+  color: #01014a;
+}
+.questionData {
+  padding: 10px;
+  display: flex;
+  margin: 1rem;
+  border: 2px solid black;
+}
+.questionData p {
+  margin-right: 2rem;
+}
+
+td, th{
+    background-color: white;
+}

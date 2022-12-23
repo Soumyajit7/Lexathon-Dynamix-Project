@@ -1,0 +1,83 @@
+.learners {
+  margin-top: 1rem;
+}
+
+.performers {
+  border: 1px solid #01014a;
+  color: #01014a;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.performers h3 {
+  font-weight: 400;
+  padding-left: 15px;
+  padding-bottom: 3px;
+}
+
+.learnerCard_box {
+  /* border: 2px solid red; */
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.learnerCard {
+  border: 1px solid #01014a;
+  border-radius: 7px;
+  width: 16.5rem;
+  height: 6rem;
+  margin: 7px;
+  display: flex;
+  background-color: white;
+}
+
+.logo {
+  /* border: 1px solid red; */
+  margin: 7px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.logo p{
+  /* border: 1px solid blue; */
+  margin-left: 3px;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.learner_data {
+  /* border: 1px solid red; */
+  margin: 7px;
+}
+
+.learner_data h3 {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.learner_data h4 {
+  margin-top: 0px;
+  margin-left: 15px;
+  margin-bottom: 8px;
+}
+
+.leaner_name {
+  font: 300 14px/20px SiemensSans, Roboto, Open Sans;
+  letter-spacing: normal;
+}
+
+.learner_status {
+  font: 300 12px/20px SiemensSans, Roboto, Open Sans;
+  letter-spacing: normal;
+}
+
+.icons {
+  margin-left: 15px;
+}

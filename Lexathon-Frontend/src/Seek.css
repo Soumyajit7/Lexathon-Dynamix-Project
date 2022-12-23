@@ -1,0 +1,72 @@
+.seek_bar {
+  /* border: 1px solid red; */
+  margin: 2rem;
+  display: flex;
+}
+
+.seek_bar .tab {
+  margin-right: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: #01014a;
+  cursor: pointer;
+}
+
+.seekTab_data , .suggestTab_data{
+  /* border: 1px solid red; */
+  margin: 2rem;
+}
+
+.seek_material_form {
+  display: flex;
+}
+
+.seek_material_form label {
+  margin-right: 5rem;
+}
+
+.dropDown {
+  font: 400 12px/20px SiemensSans, Roboto, Open Sans;
+  letter-spacing: normal;
+  color: #01014a;
+  font-size: 1rem;
+  padding: 5px 20px;
+}
+
+input {
+  font: 400 14px/20px SiemensSans, Roboto, Open Sans;
+  letter-spacing: normal;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.textarea {
+  width: 50rem;
+  height: 10rem;
+  margin-top: 1rem;
+}
+
+.submit_button {
+  margin-left: 700px;
+  background: #62eec7;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.submit_button:hover {
+  background: #52e2b9;
+}
+
+
+.btn_approved{
+  display: none;
+}
+.btn{
+  margin-left: 10px;
+}

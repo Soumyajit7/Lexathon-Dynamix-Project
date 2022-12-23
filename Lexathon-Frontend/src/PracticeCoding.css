@@ -1,0 +1,210 @@
+.pc_container {
+  font-family: SiemensSans, Roboto, Open Sans;
+}
+
+.pc_navbar {
+  /* border: 5px solid rgb(234, 0, 255); */
+  height: 3.5rem;
+  background-color: #010028;
+  display: flex;
+}
+
+.pc_lex_logo {
+  margin-left: 2rem;
+  padding: 5px 5px;
+}
+
+.pcUserIcon {
+  font-size: 2rem;
+  margin-left: 80rem;
+  /* border: 1px solid red; */
+  margin-top: 13px;
+  color: #62eec7;
+}
+
+.pc_qa_container {
+  border-top: 5px solid #62eec7;
+  min-height: 100vh;
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.pc_qa_container > div {
+  background-color: #010028;
+  color: white;
+}
+
+.question_container {
+  /* border: 1px solid green; */
+  flex-grow: 1;
+  max-width: 50%;
+}
+
+.ans_container {
+  /* border: 1px solid blue; */
+  border-left: 10px solid #62eec7;
+  flex-grow: 4;
+}
+
+.activeContent {
+  display: block;
+}
+.content {
+  display: none;
+}
+
+.pc_tabs {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: #010028; */
+  /* border: 1px solid red; */
+}
+
+.pcTab p {
+  margin: 0px;
+  padding: 0px;
+}
+.pcTab {
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 7px;
+}
+.langTab {
+  padding: 8px;
+}
+
+.lang {
+  padding: 5px;
+  margin-left: 2rem;
+  padding-bottom: 4px;
+  border-radius: 3px;
+}
+
+.activeTab {
+  border-bottom: 2px solid #62eec7;
+}
+
+.descriptionData {
+  /* border: 3px solid white; */
+  padding: 1rem;
+}
+
+.discussionsData,
+.solutionsData {
+  padding: 1rem;
+  height: auto;
+}
+
+.disc_data {
+  /* border: 1px solid white; */
+  padding: 10px;
+}
+
+.discData_reply {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.discData_reply p,
+.solunData_reply p {
+  margin-right: 20px;
+}
+
+.disc_data h3,
+.solun_data h3 {
+  /* border: 1px solid red; */
+  margin-bottom: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.exampleBox {
+  border: 2px solid #62eec7;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-right: 9rem;
+}
+
+/* --------- solution data------------ */
+
+.solun_data {
+  /* padding: 10px; */
+  /* border: 1px solid white; */
+  margin-bottom: 15px;
+}
+
+.solunData_reply {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+}
+
+.pcIcon {
+  margin-top: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* ----------- submission ----------- */
+
+.submissionData {
+  /* border: 2px solid pink; */
+  padding: 10px;
+}
+
+.submissionData p {
+  padding: 10px;
+}
+
+.accepted {
+  color: rgb(7, 188, 7);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.error {
+  color: rgb(241, 30, 30);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* ------------  coding --------- */
+
+.coding {
+  border: 1px solid white;
+  overflow: scroll;
+  height: 25rem;
+  background-color: #ffffff;
+}
+
+.result {
+  /* border: 1px solid red; */
+  border-top: 10px solid #62eec7;
+  height: auto;
+  padding: 1rem;
+}
+.theme {
+  color: black;
+  font-size: large;
+  border: none;
+}
+.run {
+  padding: 5px;
+  float: right;
+  right: 0px;
+  margin-right: 2rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #62eec7;
+  font: 400 20px/23px SiemensSans, Roboto, Open Sans;
+  letter-spacing: normal;
+}
+
+.testcases {
+  padding: 0.3rem;
+}

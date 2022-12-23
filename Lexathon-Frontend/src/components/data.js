@@ -1,0 +1,60 @@
+const mydata = [
+  {
+    id: 1,
+    coursetype: "INTERNAL CERTIFICATION",
+    coursename: "Infosys Certified Python Associate",
+    examdate: "20 Sep 2022 IST",
+    result_type: "NA",
+    result: 100,
+  },
+  {
+    id: 2,
+    coursetype: "INTERNAL CERTIFICATION",
+    coursename: "Infosys Certified Advance Database and SQL Professional",
+    examdate: "20 Sep 2022 IST",
+    result_type: "NA",
+    result: 100,
+  },
+  {
+    id: 3,
+    coursetype: "INTERNAL CERTIFICATION",
+    coursename: "Infosys Certified AWS Associate Practitioner",
+    examdate: "20 Sep 2022 IST",
+    result_type: "NA",
+    result: 100,
+  },
+  {
+    id: 4,
+    coursetype: "INTERNAL CERTIFICATION",
+    coursename: "Infosys Certified Database and SQL Professional",
+    examdate: "20 Sep 2022 IST",
+    result_type: "NA",
+    result: 100,
+  },
+  {
+    id: 5,
+    coursetype: "INTERNAL CERTIFICATION",
+    coursename: "Infosys Certified ITIL Foundation Associate",
+    examdate: "20 Sep 2022 IST",
+    result_type: "NA",
+    result: 100,
+  },
+  {
+    id: 6,
+    coursetype: "INTERNAL CERTIFICATION",
+    coursename: "Infosys Certified Rest Assured Tester",
+    examdate: "20 Sep 2022 IST",
+    result_type: "NA",
+    result: 100,
+  },
+  {
+    id: 7,
+    coursetype: "INTERNAL CERTIFICATION",
+    coursename: "Infosys Certified Selenium Grid with Docker Testing Professional",
+    examdate: "20 Sep 2022 IST",
+    result_type: "NA",
+    result: 100,
+  },
+];
+
+export default mydata;
