@@ -8,18 +8,12 @@ const fs = require("fs");
 port = 5000 || process.env.port;
 
 // const db = mysql.createPool({
-//   host: "testdb1.c7vl1dmcg8hs.us-east-1.rds.amazonaws.com",
+//   host: "***********************",
 //   user: "root",
-//   password: "iCsasmf2tI1Gwgb9c83T",
-//   database: "testdb",
+//   password: "*********************",
+//   database: "DB_NAME",
 // });
 
-const db = mysql.createPool({
-  host: "localhost", 
-  user: "root",
-  password: "Soumyajit29!@#$",
-  database: "testdb",
-});
 
 const app = express();
 app.use(cors());
